@@ -392,9 +392,10 @@
 % \emptyxperience
 %  {<End date>}      {<Contractor title>}{<Contractor Enterprise>}{<Country>}
 %  {<Start date}     
-\newcommand\emptyexperience[5]{
+\newcommand\emptyexperience[6]{
   \textbf{#1}    & \textbf{#2, \textsc{#3}, #4}   								\\*
-  \textbf{#5}    &                      				
+  \textbf{#5}    & #6\\
+                   	                     				
   }
   
 \newcommand\emptySeparator{\multicolumn{2}{c}{}\\}
