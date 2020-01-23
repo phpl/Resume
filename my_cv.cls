@@ -49,7 +49,7 @@
 \RequirePackage{titlesec}
 \RequirePackage{array}
 \RequirePackage{enumitem}
-\RequirePackage{longtable} 	
+\RequirePackage{longtable}
 \RequirePackage{etoolbox}
 \RequirePackage{tikz}
 \RequirePackage[skins]{tcolorbox}
@@ -401,9 +401,9 @@
 \newcommand\emptySeparator{\multicolumn{2}{c}{}\\}
 
 % Define the 'projects' environment
-\newenvironment{projects}{%
+\newenvironment{projects}{
   \begin{longtable}{l}
-}{%
+}{
   \end{longtable}
 }
 
